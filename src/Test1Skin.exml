@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="Test1Skin" width="480" height="400" currentState="red" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:states>
+		<e:State name="red"/>
+		<e:State name="green"/>
+		<e:State name="blue"/>
+	</e:states>
+	<e:Rect id="rect1" height="157" width="168" x="14" y="14" fillColor="0xFF0000" includeIn="red"/>
+	<e:Rect id="rect2" height="141" width="161" x="117" y="195" fillColor="0x00FF00" includeIn="green"/>
+	<e:Rect id="rect3" height="159" width="169" x="255" y="27" fillColor="0x0000FF" includeIn="blue"/>
+</e:Skin>
